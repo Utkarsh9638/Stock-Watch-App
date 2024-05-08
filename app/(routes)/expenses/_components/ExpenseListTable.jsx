@@ -21,7 +21,7 @@ function ExpenseListTable({expensesList,refreshData,budgetInfo}) {
   return (
     <div className='pt-9'> 
    <div className='grid grid-cols-4 p-6 mt-3 text-muted-foreground border-b'>
-            <h2 className=' font-medium text-sm'>Company Name</h2>
+            <h2 className=' font-medium text-sm'>Company</h2>
             <h2 className=' font-medium text-sm'>Selling</h2>
             <h2 className=' font-medium text-sm'>Date</h2>
             <h2 className=' font-medium text-sm'>Action</h2>

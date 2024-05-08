@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/(routes)/market/_components/MarketTableList.jsx", "app/(routes)/market/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -58,7 +58,7 @@ function Dashboard() {
     <div className="mt-12">
        <div className="flex flex-col space-y-4">
         <h1 className="text-3xl font-medium">
-          Hello, {user?.fullName} 👋
+          Hello, {user?.fullName} John Doe 👋
         </h1>
         <p className="text-sm font-normal text-muted-foreground antialiased">
           Here's what happenning with your stocks, Lets Manage your shares.

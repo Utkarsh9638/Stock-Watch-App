@@ -24,11 +24,11 @@ export default function Page() {
 
 
         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-          Welcome to Coinit  
+          Welcome to Stock Watch 
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Effortlessly manage your finances with our intuitive expense tracker website, designed to simplify your budgeting tasks.
+          Your ultimate companion for navigating the dynamic world of stocks.
         </p>
       </div>
     </section>
