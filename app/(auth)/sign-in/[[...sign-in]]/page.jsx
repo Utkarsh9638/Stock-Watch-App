@@ -51,7 +51,7 @@ export default function Page() {
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Effortlessly manage your finances with our intuitive expense tracker website, designed to simplify your budgeting tasks.
+            Effortlessly manage your finances with our intuitive Stock tracker website, designed to simplify your budgeting tasks.
           </p>
         </div>
 
