@@ -3,15 +3,16 @@
 import React, { useEffect, useRef, memo } from "react";
 
 function TradingViewWidget() {
-  const container = useRef();
+  const container = useRef(null);
 
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src =
-      "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
-    script.type = "text/javascript";
-    script.async = true;
-    script.innerHTML = `
+    if (container.current) {
+      const script = document.createElement("script");
+      script.src =
+        "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+      script.type = "text/javascript";
+      script.async = true;
+      script.innerHTML = `
         {
           "autosize": true,
           "symbol": "NASDAQ:AAPL",
@@ -32,7 +33,8 @@ function TradingViewWidget() {
           "popup_height": "650",
           "support_host": "https://www.tradingview.com"
         }`;
-    container.current.appendChild(script);
+      container.current.appendChild(script);
+    }
   }, []);
 
   return (
